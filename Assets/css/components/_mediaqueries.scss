@@ -1,0 +1,123 @@
+@media screen and (max-width: 1400px) {
+    .nav-logo{
+        margin-right: 40px;
+    }
+    .nav-main{
+        margin-right: 10px;
+    }
+    .cart-panel-main{
+        width: 40%;
+    }
+    
+}
+@media screen and (max-width: 1280px){
+    #filter{
+        display: block;
+    }
+    .filter-options{
+        background-color: #fff;
+        position: fixed;
+        left:-100%;
+        width: 40%;
+        top:0;
+        z-index: 12;
+        height: 100vh;
+        transition: 0.3s;
+        overflow: hidden;
+        overflow-y: scroll;
+    }.filter-options.active{
+        left:0;
+    }
+    .shop-options{
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 768px){
+    .filter-options{
+        width: 80%;
+    }
+    .nav-logo{
+        margin-right: 40px;
+    }
+    .nav-main{
+        margin-right: 40px;
+        ul{
+            
+            li{
+                margin-right:20px;
+            }
+        }
+    }
+    
+}
+@media screen and (max-width: 576px){
+    .table-cart{
+        thead{
+            display: none;
+        }
+        tbody{
+            tr{
+                td{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
+    .product-data{
+        margin-top: 20px;
+        h1{
+            font-size: 30px;
+        }
+    }
+    .product-image{
+        height: 350px;
+    }
+    .main-carousel{
+        .carousel-item{
+            .carousel-info{
+        
+                h2{
+                    font-size: 25px;
+                }
+                h3{
+                    font-size: 35px;
+                }
+                h4{
+                    font-size: 45px;
+                }
+                p{
+                    font-size: 35px;
+                    span{
+                        font-size: 25px;
+                    }
+                }
+                a{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .cart-panel-main{
+        width: 80%;
+    }
+    .nav-icons{
+        ul{
+            li{
+                font-size: 15px;
+            }
+        }
+    }
+    .nav-logo{
+        font-size: 20px;
+        margin-right: 20px;
+    }
+    .nav-main{
+        display: none;
+    }
+    #btnToggleNav{
+        display: flex;
+    }
+    
+}
